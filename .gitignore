@@ -76,8 +76,13 @@ secrets.*
 
 ### project-init: go additions
 # go build ./... はカレントディレクトリへ各 main パッケージのバイナリを吐く
+/issuepost
 /heartpost-agent
 /heartpost-monitor
+
+# 実際の設定ファイル。鍵とデータベースのパスワードが同じファイルに入る。
+# 雛形（config.example.toml）だけを追跡する。
+/config.toml
 
 /bin/
 /dist/
