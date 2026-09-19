@@ -71,9 +71,6 @@ secrets.*
 .npmrc
 .pypirc
 
-# === project-init: obsidian public ===
-/docs/obsidian/
-
 ### project-init: go additions
 # go build ./... はカレントディレクトリへ各 main パッケージのバイナリを吐く
 /issuepost
